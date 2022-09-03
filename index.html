@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WorldWideWeather</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="//unpkg.com/globe.gl"></script>
 </head>
 <body>
-    
+    <div>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Drag on the globe or type a location here">
+        </div>
+        <div>
+            <button id="">Random</button>
+        </div>
+    </div>
+    <div id="globeViz">
+        <script src="index.js"></script>
+    </div>
+    <footer>
+        <p id="credit">Created by Connor Delacruz</p>
+        <p id="github-link"><a href="https://github.com/ConnorDelacruz14/WorldWideWeather">GitHub</a></p>
+    </footer>
 </body>
 </html>

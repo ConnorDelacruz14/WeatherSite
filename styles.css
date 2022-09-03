@@ -1,3 +1,26 @@
 body {
     background-color: #1E1E1E;
 }
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#search-bar {
+    position: relative;
+    width: 50%;
+    height: 25px;
+    border-radius: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
