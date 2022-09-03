@@ -1,0 +1,11 @@
+APIS:
+- YouTube
+- OpenWeatherMap
+
+
+
+WebPage:
+- When user scrolls down the background changes color
+- Globe:
+    - Can drag or move around 3D globe
+    - Click on spot on globe to bring up weather 
