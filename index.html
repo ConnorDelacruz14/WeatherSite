@@ -9,12 +9,13 @@
     <script src="//unpkg.com/globe.gl"></script>
 </head>
 <body>
-    <div>
+    <div id="script-container">
+        <div id="globeViz">
+            <script id="script" src="index.js"></script>
+        </div>
     </div>
-    <div id="globeViz">
-        <script src="index.js"></script>
-        <div class="search-container">
-            <input type="text" id="search-bar" placeholder="Drag on the globe or type a location here">
+    <div id="stats-container">
+         <textarea name="Temperature" id="stats-display" cols="30" rows="10"></textarea>
     </div>
     <footer>
         <p id="credit">Created by Connor Delacruz</p>
