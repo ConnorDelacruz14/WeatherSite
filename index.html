@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,32 @@
     <title>WorldWideWeather</title>
     <link rel="stylesheet" href="styles.css">
     <script src="//unpkg.com/globe.gl"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="top-info-container">
+        <div class="title">WorldWideWeather</div>
+        <div class="title-desc">Click on a location to see the weather.</div>
+    </div>
     <div id="script-container">
         <div id="globeViz">
             <script id="script" src="index.js"></script>
         </div>
     </div>
     <div id="stats-container">
-         <textarea name="Temperature" id="stats-display" cols="30" rows="10"></textarea>
+        <div class="description-container">
+            Current:
+            <span id="temp-current">0</span>
+            High: 
+            <span id="temp-high">0</span>
+            Low:
+            <span id="temp-low">0</span>
+        </div>
     </div>
     <footer>
-        <p id="credit">Created by Connor Delacruz</p>
         <p id="github-link"><a href="https://github.com/ConnorDelacruz14/WorldWideWeather">GitHub</a></p>
     </footer>
 </body>

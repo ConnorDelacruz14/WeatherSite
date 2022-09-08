@@ -1,37 +1,56 @@
-body {
-    background-color: #000011;
+* {
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    background-color: #000011;
+    font-family: 'Space Mono',monospace;
+    color: white;
+    overflow: hidden;
+}
+
+.top-info-container {
+    top: 60px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 35px;
+    color: #e6f1ff;
+}
+
+.title-desc {
+    margin-top: 5px;
+    color: #ccd6f6;
+    padding: 0 40px;
+}
 
 #script-container {
     display: flex;
 }
 
-#search-bar {
-    width: 30%;
-    border-radius: 5px;
-}
-
 #globeViz {
     display: flex;
+    margin-bottom: 0;
 }
 
 #stats-container {
-    display: flex;
-    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 100px;
 }
-
-#stats-display {
-    position: relative;
-    left: 20px;
-    width: 500px;
-}
-
 
 footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
+    z-index: 1;
+    position: absolute;
     text-align: center;
+    bottom: 50px;
+    width: 100%;
 }
+    
